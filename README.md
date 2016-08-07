@@ -1,24 +1,7 @@
-# README
+# Flatiron Temp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is meant to just start off as a rails API. It will make get requests to a Spark Core board once a minute or so to check the temp and humidity of the office and save the record in the DB. 
 
-Things you may want to cover:
+## Todo
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ - Setup clockwork to hit the DB once a minute between 9pm and 4am (7 hour gap is designed to fit within the free Heroku hosting).
